@@ -3,10 +3,16 @@
 using namespace std;
 int main()
 {
-    int arr[5];
+    cout << "Enter the size of array: ";
+    int size;
+    cin >> size;
+    int *arr = new int[size];
     cout << "Enter the values of array: " << endl;
-    cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
-    for(int index = 0; index <= 4; index++)
+    for(int i = 0; i < size; i++)
+    {
+        cin >> arr[i];
+    }
+    for(int index = 0; index < size; index++)
    {
       if(arr[index] % 2 == 0)
       {
