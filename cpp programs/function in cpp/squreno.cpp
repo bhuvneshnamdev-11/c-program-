@@ -3,9 +3,9 @@
 using namespace std;
 int squreofno(int a)
 {
-    int sum;
-    sum = a*a;
-    return sum;
+    int squre;
+    squre = a*a;
+    return squre;
 }
 int main()
 {
