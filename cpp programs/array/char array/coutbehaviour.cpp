@@ -8,9 +8,5 @@ int main()
     
     char arr[10] = "bhuvnesh";
     cout << arr << endl;
-
-
-
-
     return 0;
 }
